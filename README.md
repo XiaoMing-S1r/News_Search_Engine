@@ -29,6 +29,10 @@
 <img src="https://user-images.githubusercontent.com/57986069/155446062-621748fd-1b7b-4191-8bcd-533e36427f0e.png"/>
 </div>
 
+<div align=center>
+<img src="https://user-images.githubusercontent.com/57986069/155450005-dc0026e1-6ab6-4c0b-ba4e-8e427ff41ebf.png"/>
+</div>
+
 ### 3.使用余弦相似度作为<query,document>的相关性分值的计算方式
 - 在这里，我编写了如下所示的余弦相似度计算函数cos_sim。其输入为两个长度相同的列表（向量），第一个向量s1_cut_code为query的TF-IDF向量，第二个向量s2_cut_code为某一篇document的TF-IDF向量。其输出为query与该document的余弦相似度，并保留4位小数。
 <div align=center>
