@@ -54,4 +54,4 @@
 - 具体为templates文件夹中的4个html文件——content.html、high_search.html、next.html、search.html。
 
 ### 6.使用Python的flask库实现前端与后台的数据传输
-- 利用[flask](https://github.com/pallets/flask)实现前端（templates文件夹中的4个html文件）与后台（InvertIndex.py、SearchEngine.py）的数据传输，具体为Web.py文件。
+- 利用[flask](https://github.com/pallets/flask)实现前端（templates文件夹中的4个html文件）与后台（InvertIndex.py、SearchEngine.py）的数据传输，具体为项目中的Web.py文件。
