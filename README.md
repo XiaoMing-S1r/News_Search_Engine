@@ -24,13 +24,13 @@
 - 然后，在分词前，我先将文本中所有的大写字母转成小写，并利用正则表达式剔除了所有标点符号，只保留了“中文”、“英文字母”和“数字”。最后在调用jieba库进行分词操作时，选择了全切割模式（cut_all=True），以保障尽可能全面地切割出文本中所有的词，以避免因关键词缺漏导致该新闻在后面无法检索到。
 
 ### 2.使用倒排索引（inverted index）存储数据
-- 该系统使用倒排索引（inverted index）存储数据，没有调用MySQL等数据库。倒排索引的原理及构建的核心代码如下：
+- 该系统使用倒排索引（inverted index）存储数据，没有调用MySQL等数据库。倒排索引构建的核心代码及其原理如下：
 <div align=center>
-<img src="https://user-images.githubusercontent.com/57986069/155450308-4cdc5ea5-8ef2-4741-ac99-ca487d56c230.png"/>
+<img src="https://user-images.githubusercontent.com/57986069/155446062-621748fd-1b7b-4191-8bcd-533e36427f0e.png"/>
 </div>
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/57986069/155446062-621748fd-1b7b-4191-8bcd-533e36427f0e.png"/>
+<img src="https://user-images.githubusercontent.com/57986069/155450308-4cdc5ea5-8ef2-4741-ac99-ca487d56c230.png"/>
 </div>
 
 ### 3.使用余弦相似度作为<query,document>的相关性分值的计算方式
