@@ -30,7 +30,7 @@
 </div>
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/57986069/155450005-dc0026e1-6ab6-4c0b-ba4e-8e427ff41ebf.png"/>
+<img src="https://user-images.githubusercontent.com/57986069/155450167-ee97bb89-7170-4703-bf9d-0aa6c5e35c68.png"/>
 </div>
 
 ### 3.使用余弦相似度作为<query,document>的相关性分值的计算方式
